@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(45deg, red,blue)
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 3rem 5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: 0px 7px 29px 0px rgba(79, 58, 77, 0.5);
+}
+
+.container h2,
+.container span,
+.container .btn {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.container h2{
+    color: #fc3200;
+    font-size: 2rem;
+}
+.container span {
+    text-align: center;
+    font-size: 150px;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 9px 16px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: #e65b00;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px 3px 12px #9170aa;
+}
+
+.container h5{
+    color: #06ff30;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width: 500px){
+    .container span {
+        text-align: center;
+        font-size: 150px;
+    }
+    .btn {
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 5px;
+        padding: 15px 20px;
+        border-radius: 15px;
+        transition: all 0.1s;
+        background-color: #ff7b00;
+        
+    }
+    .container h2{
+        font-size: 25px;
+        background: linear-gradient(45deg, #fc3200,#06ff30);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: capitalize;
+    }
+    .container {
+        max-width: 80%;
+        max-height: 80%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        box-shadow: 0px 5px 20px 0px rgba(243, 4, 219, 0.5);
+    }
+    .container span{
+        font-size: 95px;
+    }
+    body{
+        background: linear-gradient(300deg,  #fc0000,#f18d01, rgb(184, 19, 47), #eff30f,#447821 , #bd3cf0, #0702ff);
+    }
+    
+    .container h5{
+     text-transform: capitalize;
+     font-size: 15px;
+     text-align: center;
+     color: rgb(243, 0, 0);
+     box-shadow: #fc0000;
+     font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-shadow: #fc0000;
+    }
+       
+    
+}
